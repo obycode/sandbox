@@ -70,9 +70,6 @@ plan:
             cost: 41510
             path: "./.cache/requirements/SM3VDXK3WZZSA84XXFKAFAF15NNZX32CTSG82JFQ4.sbtc-deposit.clar"
             clarity-version: 3
-      epoch: "3.0"
-    - id: 3
-      transactions:
         - contract-publish:
             contract-name: sandbox
             expected-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
@@ -87,4 +84,4 @@ plan:
             path: contracts/foo.clar
             anchor-block-only: true
             clarity-version: 3
-      epoch: "3.1"
+      epoch: "3.0"
