@@ -10,17 +10,17 @@ plan:
       transactions:
         - requirement-publish:
             contract-id: SP2PABAF9FTAJYNFZH93XENAJ8FVY99RRM50D2JG9.nft-trait
-            remap-sender: ST2RGBRAT25E4CJ11BJRJSCMF622Y7A0B8A4Y2N18
+            remap-sender: ST28Q3PYB7E6TFSPRVMGDB72JRAHQYDSYYER9YZV
             remap-principals:
-              SP2PABAF9FTAJYNFZH93XENAJ8FVY99RRM50D2JG9: ST2RGBRAT25E4CJ11BJRJSCMF622Y7A0B8A4Y2N18
+              SP2PABAF9FTAJYNFZH93XENAJ8FVY99RRM50D2JG9: ST28Q3PYB7E6TFSPRVMGDB72JRAHQYDSYYER9YZV
             cost: 4680
             path: "./.cache/requirements/SP2PABAF9FTAJYNFZH93XENAJ8FVY99RRM50D2JG9.nft-trait.clar"
             clarity-version: 1
         - requirement-publish:
             contract-id: SP3FBR2AGK5H9QBDH3EEN6DF8EK8JY7RX8QJ5SVTE.sip-010-trait-ft-standard
-            remap-sender: ST2RGBRAT25E4CJ11BJRJSCMF622Y7A0B8A4Y2N18
+            remap-sender: ST28Q3PYB7E6TFSPRVMGDB72JRAHQYDSYYER9YZV
             remap-principals:
-              SP3FBR2AGK5H9QBDH3EEN6DF8EK8JY7RX8QJ5SVTE: ST2RGBRAT25E4CJ11BJRJSCMF622Y7A0B8A4Y2N18
+              SP3FBR2AGK5H9QBDH3EEN6DF8EK8JY7RX8QJ5SVTE: ST28Q3PYB7E6TFSPRVMGDB72JRAHQYDSYYER9YZV
             cost: 8400
             path: "./.cache/requirements/SP3FBR2AGK5H9QBDH3EEN6DF8EK8JY7RX8QJ5SVTE.sip-010-trait-ft-standard.clar"
             clarity-version: 1
@@ -29,17 +29,17 @@ plan:
       transactions:
         - requirement-publish:
             contract-id: SP2QEZ06AGJ3RKJPBV14SY1V5BBFNAW33D96YPGZF.commission-trait
-            remap-sender: ST2RGBRAT25E4CJ11BJRJSCMF622Y7A0B8A4Y2N18
+            remap-sender: ST28Q3PYB7E6TFSPRVMGDB72JRAHQYDSYYER9YZV
             remap-principals:
-              SP2QEZ06AGJ3RKJPBV14SY1V5BBFNAW33D96YPGZF: ST2RGBRAT25E4CJ11BJRJSCMF622Y7A0B8A4Y2N18
+              SP2QEZ06AGJ3RKJPBV14SY1V5BBFNAW33D96YPGZF: ST28Q3PYB7E6TFSPRVMGDB72JRAHQYDSYYER9YZV
             cost: 720
             path: "./.cache/requirements/SP2QEZ06AGJ3RKJPBV14SY1V5BBFNAW33D96YPGZF.commission-trait.clar"
             clarity-version: 2
         - requirement-publish:
             contract-id: SP2QEZ06AGJ3RKJPBV14SY1V5BBFNAW33D96YPGZF.BNS-V2
-            remap-sender: ST2RGBRAT25E4CJ11BJRJSCMF622Y7A0B8A4Y2N18
+            remap-sender: ST28Q3PYB7E6TFSPRVMGDB72JRAHQYDSYYER9YZV
             remap-principals:
-              SP2QEZ06AGJ3RKJPBV14SY1V5BBFNAW33D96YPGZF: ST2RGBRAT25E4CJ11BJRJSCMF622Y7A0B8A4Y2N18
+              SP2QEZ06AGJ3RKJPBV14SY1V5BBFNAW33D96YPGZF: ST28Q3PYB7E6TFSPRVMGDB72JRAHQYDSYYER9YZV
             cost: 915430
             path: "./.cache/requirements/SP2QEZ06AGJ3RKJPBV14SY1V5BBFNAW33D96YPGZF.BNS-V2.clar"
             clarity-version: 2
@@ -70,21 +70,18 @@ plan:
             cost: 41510
             path: "./.cache/requirements/SM3VDXK3WZZSA84XXFKAFAF15NNZX32CTSG82JFQ4.sbtc-deposit.clar"
             clarity-version: 3
-      epoch: "3.0"
-    - id: 3
-      transactions:
         - contract-publish:
             contract-name: sandbox
-            expected-sender: ST2RGBRAT25E4CJ11BJRJSCMF622Y7A0B8A4Y2N18
+            expected-sender: ST28Q3PYB7E6TFSPRVMGDB72JRAHQYDSYYER9YZV
             cost: 116
             path: contracts/sandbox.clar
             anchor-block-only: true
             clarity-version: 3
         - contract-publish:
             contract-name: foo
-            expected-sender: ST2RGBRAT25E4CJ11BJRJSCMF622Y7A0B8A4Y2N18
+            expected-sender: ST28Q3PYB7E6TFSPRVMGDB72JRAHQYDSYYER9YZV
             cost: 171
             path: contracts/foo.clar
             anchor-block-only: true
             clarity-version: 3
-      epoch: "3.1"
+      epoch: "3.0"
