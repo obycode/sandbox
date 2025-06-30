@@ -1,0 +1,35 @@
+---
+id: 0
+name: Testnet deployment
+network: testnet
+stacks-node: "https://api.testnet.hiro.so"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoind.testnet.stacks.co:18332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: sandbox
+            expected-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            cost: 1184873
+            path: contracts/sandbox.clar
+            anchor-block-only: true
+            clarity-version: 2
+      epoch: "2.1"
+    - id: 1
+      transactions:
+        - contract-publish:
+            contract-name: foo
+            expected-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            cost: 1184873
+            path: contracts/foo.clar
+            anchor-block-only: true
+            clarity-version: 2
+        - contract-publish:
+            contract-name: rickroll
+            expected-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            cost: 1216312
+            path: contracts/rickroll.clar
+            anchor-block-only: true
+            clarity-version: 2
+      epoch: "2.5"

@@ -1,0 +1,15 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "clarinet",
+      "request": "launch",
+      "name": "Call .sandbox.test",
+      "manifest": "${workspaceFolder}/Clarinet.toml",
+      "expression": "(contract-call? 'SP2QEZ06AGJ3RKJPBV14SY1V5BBFNAW33D96YPGZF.BNS-V2 name-claim-fast 0x7468656d65 0x737478 'SP2H0D3Y3E0D5PDM300Z73C57PEEH036Z1SE72ATH)",
+    }
+  ]
+}

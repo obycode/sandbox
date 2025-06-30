@@ -1,0 +1,6 @@
+(define-public (do-something (a uint))
+  (if (is-eq a u0)
+    (err u1)
+    (ok (print (+ a u3)))
+  )
+)
